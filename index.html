@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Input e Botão</title>
+  <style>
+    /* Estilos simples para o layout */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #inputBtnContainer {
+      text-align: center;
+    }
+    input[type="text"] {
+      padding: 8px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div id="inputBtnContainer">
+  <input type="text" id="userInput" placeholder="Digite algo">
+  <button id="submitButton">Enviar</button>
+</div>
+
+<script>
+  // Adicionando funcionalidade ao botão
+  document.getElementById('submitButton').addEventListener('click', function() {
+    var userInput = document.getElementById('userInput').value;
+    if(userInput == "te amo"){
+        alert("Você acertou!")
+        window.location.href = "https://www.invertexto.com/?key=UZcfHFB3LGoj0OKM&id=187265"
+    }else{
+        alert("Você errou!")
+    }
+    // Aqui você pode fazer o que quiser com o valor digitado
+  });
+</script>
+
+</body>
+<!-- Oi amor, se você ver isso, você descobriu meu enigma, e significa que eu amo muito você, obrigado por ser você, isso é apenas um a mais do presente que eu te dei, eu optei por ficar a segunda sem te ver e sem entregar o presente por que eu queria bolar ele direitinho, mas é isso vida eu te amo muito e tô bem feliz por estar com você eu sempre estou feliz com isso, espero que voce ache isso. -->
+</html>
